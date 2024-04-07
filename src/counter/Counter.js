@@ -13,7 +13,7 @@ const Counter = (props) => {
 
     return (
         <div>
-            <h1>Counter</h1> <h1 data-testid="count">{count}</h1>
+            <h1>Counter change</h1> <h1 data-testid="count">{count}</h1>
             <button onClick={increment}>Increment</button>
             <button onClick={decrement}>Decrement</button>
         </div>

@@ -4,11 +4,11 @@ const Counter = (props) => {
     const [count, setCount] = useState(props.initialCount || 0);
 
     const increment = () => {
-        setCount(count + 2);
+        setCount(count + 1);
     };
 
     const decrement = () => {
-        setCount(count - 2);
+        setCount(count - 1);
     };
 
     return (

@@ -14,6 +14,7 @@ const Counter = (props) => {
     return (
         <div>
             <h1>Hello, Counter change</h1> <h1 data-testid="count">{count}</h1>
+            <button>test</button>
             <button onClick={increment}>Increment</button>
             <button onClick={decrement}>Decrement</button>
         </div>
